@@ -1,0 +1,90 @@
+{
+  "menu": [
+    {
+      "url": "/system/dashboard",
+      "name": "Dashboard",
+      "i18n": "Dashboard",
+      "class": "waves-effect waves-cyan",
+      "slug": "dashboard",
+      "icon": "dashboard"
+    },
+    {
+      "navheader": "Navigasi Menu",
+      "icon": "more_horiz"
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Resource",
+      "i18n": "Resource",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "icon": "photo_filter",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "javascript:void(0)",
+          "name": "Resource",
+          "i18n": "Resource",
+          "slug": "",
+          "icon": "radio_button_unchecked"
+        },
+        {
+          "url": "javascript:void(0)",
+          "class": "collapsible-header waves-effect waves-cyan",
+          "name": "Second level child",
+          "i18n": "Second level child",
+          "slug": "",
+          "icon": "radio_button_unchecked",
+          "submenu": [
+            {
+              "url": "javascript:void(0)",
+              "name": "Third level",
+              "i18n": "Third level",
+              "slug": "",
+              "icon": "radio_button_unchecked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+        "navheader": "Master Data",
+        "icon": "settings"
+    },
+    {
+        "url": "javascript:void(0)",
+        "name": "Organisasi",
+        "i18n": "Organisasi",
+        "class":"waves-effect waves-cyan",
+        "icon": "home",
+        "slug": ""
+    },
+    {
+        "navheader": "Administrasi System",
+        "icon": "settings"
+    },
+    {
+        "url": "javascript:void(0)",
+        "name": "Users & Roles",
+        "i18n": "Users & Roles",
+        "class": "collapsible-header waves-effect waves-cyan",
+        "icon": "settings",
+        "slug": "",
+        "submenu": [
+            {
+                "url": "javascript:void(0)",
+                "name": "Users",
+                "i18n": "Users",
+                "slug": "",
+                "icon": "build"
+            },
+            {
+              "url": "javascript:void(0)",
+              "name": "Roles",
+              "i18n": "Roles",
+              "slug": "",
+              "icon": "person"
+            }
+        ]
+    }
+  ]
+}
